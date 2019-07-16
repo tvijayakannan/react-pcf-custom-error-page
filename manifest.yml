@@ -1,0 +1,7 @@
+---
+applications:
+  - name: react-custom-404
+    path: build
+    buildpack: staticfile_buildpack
+    memory: 64M
+    disk_quota: 128M
